@@ -1,0 +1,49 @@
+.full-banner-form {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #820AD1;
+    .container-login {
+        margin-top: 60px;
+        width: 320px;
+        height: 75%;
+        display: flex;
+        background: white;
+        border-radius: 2%;
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //justify-content: space-between;
+            label {
+                margin-top: 7%;
+                width: 70%; 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                input {
+                    width: 100%;
+                }
+            }
+            p { margin: 0;}
+
+            a {
+                color: #AB4BEA;
+                text-decoration: none;
+                font-size: .9rem;
+                text-align: center;
+                font-weight: 500;
+                //font-family: Graphik,"Gotham SSm A","Gotham SSm B","Helvetica Neue";
+            }
+            button {
+                margin-top: 8%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+             
